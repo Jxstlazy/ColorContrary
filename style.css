@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 46, 46);
+    overflow: hidden;
+}
+ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+#codes{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#colorcode {
+    font-size: 270px;
+    position: relative;  
+}
+
+#complementarycode {
+    opacity: 80%;
+    font-size: 50px;
+}
+#popup{
+    float: right;
+    margin-right: 25px;
+    border-radius: 15px;
+    padding: 0.1%;
+    width: 130px;
+    background-color: rgb(46, 46, 46);
+    visibility: hidden;
+}
+#popup p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#open-popup{
+    visibility: visible;
+}
+#close-popup{
+    visibility: hidden;
+    opacity: 0;
+}
